@@ -13,6 +13,8 @@ namespace DBProject
         public static Welcome main;
         static void Main()
         {
+            
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(main = new Welcome());

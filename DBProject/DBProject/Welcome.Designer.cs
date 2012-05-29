@@ -45,11 +45,11 @@
             // 
             // sales
             // 
-            this.sales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.sales.BackColor = System.Drawing.Color.PowderBlue;
             this.sales.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.sales.ForeColor = System.Drawing.Color.Red;
             this.sales.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.sales.Location = new System.Drawing.Point(132, 18);
+            this.sales.Location = new System.Drawing.Point(116, 22);
             this.sales.Name = "sales";
             this.sales.Size = new System.Drawing.Size(112, 53);
             this.sales.TabIndex = 0;
@@ -66,7 +66,7 @@
             this.Warehouse.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Warehouse.ForeColor = System.Drawing.Color.Red;
             this.Warehouse.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Warehouse.Location = new System.Drawing.Point(411, 281);
+            this.Warehouse.Location = new System.Drawing.Point(540, 360);
             this.Warehouse.Name = "Warehouse";
             this.Warehouse.Size = new System.Drawing.Size(94, 40);
             this.Warehouse.TabIndex = 1;
@@ -81,7 +81,7 @@
             this.finance.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.finance.ForeColor = System.Drawing.Color.Red;
             this.finance.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.finance.Location = new System.Drawing.Point(436, 77);
+            this.finance.Location = new System.Drawing.Point(577, 116);
             this.finance.Name = "finance";
             this.finance.Size = new System.Drawing.Size(102, 40);
             this.finance.TabIndex = 2;
@@ -94,7 +94,7 @@
             this.facility.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.facility.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.facility.ForeColor = System.Drawing.Color.Red;
-            this.facility.Location = new System.Drawing.Point(431, 235);
+            this.facility.Location = new System.Drawing.Point(564, 301);
             this.facility.Name = "facility";
             this.facility.Size = new System.Drawing.Size(100, 40);
             this.facility.TabIndex = 3;
@@ -108,7 +108,7 @@
             this.card.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.card.ForeColor = System.Drawing.Color.Red;
             this.card.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.card.Location = new System.Drawing.Point(449, 134);
+            this.card.Location = new System.Drawing.Point(577, 179);
             this.card.Name = "card";
             this.card.Size = new System.Drawing.Size(123, 40);
             this.card.TabIndex = 4;
@@ -121,7 +121,7 @@
             this.information.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.information.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.information.ForeColor = System.Drawing.Color.Red;
-            this.information.Location = new System.Drawing.Point(439, 182);
+            this.information.Location = new System.Drawing.Point(577, 245);
             this.information.Name = "information";
             this.information.Size = new System.Drawing.Size(115, 40);
             this.information.TabIndex = 5;
@@ -134,7 +134,7 @@
             this.man_workers.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.man_workers.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.man_workers.ForeColor = System.Drawing.Color.Red;
-            this.man_workers.Location = new System.Drawing.Point(413, 36);
+            this.man_workers.Location = new System.Drawing.Point(541, 59);
             this.man_workers.Name = "man_workers";
             this.man_workers.Size = new System.Drawing.Size(93, 35);
             this.man_workers.TabIndex = 6;
@@ -145,9 +145,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DBProject.Properties.Resources.menu;
-            this.pictureBox1.Location = new System.Drawing.Point(387, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(515, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(196, 362);
+            this.pictureBox1.Size = new System.Drawing.Size(196, 447);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -157,7 +157,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(12, 295);
+            this.button1.Location = new System.Drawing.Point(21, 360);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 55);
             this.button1.TabIndex = 9;
@@ -170,9 +170,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::DBProject.Properties.Resources.welcome;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(61, 102);
+            this.pictureBox2.Location = new System.Drawing.Point(116, 125);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(253, 138);
+            this.pictureBox2.Size = new System.Drawing.Size(268, 160);
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
@@ -183,7 +183,7 @@
             this.BackColor = System.Drawing.Color.Orange;
             this.BackgroundImage = global::DBProject.Properties.Resources.background1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(584, 362);
+            this.ClientSize = new System.Drawing.Size(711, 443);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.man_workers);
@@ -198,12 +198,11 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.HangulFull;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Welcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome";
-            this.Load += new System.EventHandler(this.Main_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Welcome_FormClosing);
+            this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
