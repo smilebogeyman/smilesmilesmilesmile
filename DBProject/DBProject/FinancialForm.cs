@@ -43,18 +43,7 @@ namespace finance
             newForm.Show();
         }
 
-        private void menuItem3_Click(object sender, EventArgs e)
-        {
-            if (this.checkChildFormExist("MouthIncome") == true)
-            {
-                return;
-            }
-            MouthIncome newForm = new MouthIncome();
-            newForm.MdiParent = this;
-            newForm.Show();
-        }
-
-        private void menuItem7_Click(object sender, EventArgs e)
+        private void menuItem4_Click(object sender, EventArgs e)
         {
             if (this.checkChildFormExist("BillInput") == true)
             {
@@ -65,7 +54,7 @@ namespace finance
             newForm.Show();
         }
 
-        private void menuItem6_Click(object sender, EventArgs e)
+        private void menuItem5_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }

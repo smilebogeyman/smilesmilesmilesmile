@@ -34,24 +34,21 @@
             this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.menuItem3 = new System.Windows.Forms.MenuItem();
             this.menuItem4 = new System.Windows.Forms.MenuItem();
-            this.menuItem7 = new System.Windows.Forms.MenuItem();
-            this.menuItem8 = new System.Windows.Forms.MenuItem();
-            this.menuItem6 = new System.Windows.Forms.MenuItem();
+            this.menuItem5 = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
             // 
             // mainMenu1
             // 
             this.mainMenu1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItem1,
-            this.menuItem4,
-            this.menuItem6});
+            this.menuItem3,
+            this.menuItem5});
             // 
             // menuItem1
             // 
             this.menuItem1.Index = 0;
             this.menuItem1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
-            this.menuItem2,
-            this.menuItem3});
+            this.menuItem2});
             this.menuItem1.Text = "收入管理";
             // 
             // menuItem2
@@ -63,33 +60,21 @@
             // menuItem3
             // 
             this.menuItem3.Index = 1;
-            this.menuItem3.Text = "月收入明细";
-            this.menuItem3.Click += new System.EventHandler(this.menuItem3_Click);
+            this.menuItem3.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.menuItem4});
+            this.menuItem3.Text = "支出管理";
             // 
             // menuItem4
             // 
-            this.menuItem4.Index = 1;
-            this.menuItem4.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
-            this.menuItem7,
-            this.menuItem8});
-            this.menuItem4.Text = "支出管理";
+            this.menuItem4.Index = 0;
+            this.menuItem4.Text = "账单管理";
+            this.menuItem4.Click += new System.EventHandler(this.menuItem4_Click);
             // 
-            // menuItem7
+            // menuItem5
             // 
-            this.menuItem7.Index = 0;
-            this.menuItem7.Text = "账单输入";
-            this.menuItem7.Click += new System.EventHandler(this.menuItem7_Click);
-            // 
-            // menuItem8
-            // 
-            this.menuItem8.Index = 1;
-            this.menuItem8.Text = "账单过账";
-            // 
-            // menuItem6
-            // 
-            this.menuItem6.Index = 2;
-            this.menuItem6.Text = "返回主界面";
-            this.menuItem6.Click += new System.EventHandler(this.menuItem6_Click);
+            this.menuItem5.Index = 2;
+            this.menuItem5.Text = "返回主界面";
+            this.menuItem5.Click += new System.EventHandler(this.menuItem5_Click);
             // 
             // FinancialForm
             // 
@@ -97,7 +82,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DBProject.Properties.Resources.finance;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(784, 591);
+            this.ClientSize = new System.Drawing.Size(784, 621);
             this.IsMdiContainer = true;
             this.Menu = this.mainMenu1;
             this.Name = "FinancialForm";
@@ -113,10 +98,8 @@
         private System.Windows.Forms.MenuItem menuItem1;
         private System.Windows.Forms.MenuItem menuItem2;
         private System.Windows.Forms.MenuItem menuItem3;
+        private System.Windows.Forms.MenuItem menuItem5;
         private System.Windows.Forms.MenuItem menuItem4;
-        private System.Windows.Forms.MenuItem menuItem6;
-        private System.Windows.Forms.MenuItem menuItem7;
-        private System.Windows.Forms.MenuItem menuItem8;
 
     }
 }

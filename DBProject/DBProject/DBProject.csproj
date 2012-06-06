@@ -110,11 +110,14 @@
     <Compile Include="MakeCard.designer.cs">
       <DependentUpon>MakeCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="MouthIncome.cs">
-      <SubType>Form</SubType>
+    <Compile Include="marketdbDataSet.cs">
+      <DependentUpon>marketdbDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="MouthIncome.designer.cs">
-      <DependentUpon>MouthIncome.cs</DependentUpon>
+    <Compile Include="marketdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>marketdbDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="PCard.cs">
       <SubType>Form</SubType>
@@ -208,10 +211,6 @@
       <DependentUpon>MakeCard.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="MouthIncome.resx">
-      <DependentUpon>MouthIncome.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="PCard.resx">
       <DependentUpon>PCard.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -258,6 +257,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
+    <None Include="marketdbDataSet.xsc">
+      <DependentUpon>marketdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="marketdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>marketdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="marketdbDataSet.xss">
+      <DependentUpon>marketdbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

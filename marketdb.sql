@@ -4,7 +4,7 @@ create table bills
 (
 	billID int identity(1,1) not null,
 	sumPrice float not null,
-	time timestamp,
+	time date,
 	primary key(billID)
 );
 
@@ -60,7 +60,8 @@ create table outcome
 	outcomeID int identity(1,1) not null,
 	type varchar(50),
 	amount float not null,
-	time timestamp,
+	time date,
+	department varchar(50),
 	primary key(outcomeID)
 );
 
