@@ -6,4 +6,7 @@
 }
 
 namespace DBProject.marketdbDataSetTableAdapters {
+    partial class itemsTableAdapter
+    {
+    }
 }

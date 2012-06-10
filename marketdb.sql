@@ -4,7 +4,7 @@ create table bills
 (
 	billID int identity(1,1) not null,
 	sumPrice float not null,
-	time date,
+	time date default getdate(),
 	primary key(billID)
 );
 
@@ -155,3 +155,8 @@ insert into items(itemName, itemPrice, itemQuan, repertory, itemType)
 values('potato', 4.5, 120, 100, 'vegetable');
 insert into items(itemName, itemPrice, itemQuan, repertory, itemType) 
 values('tomato', 4.0, 50, 20, 'vegetable');
+
+/*插入三张购物卡*/
+insert into dbo.cards (password, amount)values('333333', 50);
+insert into dbo.cards (password, amount)values('123456', 500);
+insert into dbo.cards (password, amount)values('abcdef', 1000);
