@@ -41,10 +41,10 @@
             // 
             this.username.AutoSize = true;
             this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.username.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.username.Location = new System.Drawing.Point(16, 40);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(69, 20);
+            this.username.Size = new System.Drawing.Size(72, 25);
             this.username.TabIndex = 0;
             this.username.Text = "用户名";
             // 
@@ -52,17 +52,17 @@
             // 
             this.password.AutoSize = true;
             this.password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.password.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.password.ForeColor = System.Drawing.Color.Black;
             this.password.Location = new System.Drawing.Point(34, 89);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(49, 20);
+            this.password.Size = new System.Drawing.Size(52, 25);
             this.password.TabIndex = 1;
             this.password.Text = "密码";
             // 
             // name
             // 
-            this.name.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.name.Location = new System.Drawing.Point(133, 39);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(127, 30);
@@ -70,7 +70,7 @@
             // 
             // pass
             // 
-            this.pass.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pass.Location = new System.Drawing.Point(133, 84);
             this.pass.Name = "pass";
             this.pass.PasswordChar = '●';
@@ -103,6 +103,7 @@
             // 
             // Login
             // 
+            this.AcceptButton = this.submit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DBProject.Properties.Resources.login;

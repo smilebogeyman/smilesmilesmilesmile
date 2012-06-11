@@ -65,11 +65,11 @@
             // 
             this.itemIdLabel.AutoSize = true;
             this.itemIdLabel.BackColor = System.Drawing.Color.Transparent;
-            this.itemIdLabel.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.itemIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.itemIdLabel.ForeColor = System.Drawing.Color.Teal;
             this.itemIdLabel.Location = new System.Drawing.Point(25, 50);
             this.itemIdLabel.Name = "itemIdLabel";
-            this.itemIdLabel.Size = new System.Drawing.Size(114, 19);
+            this.itemIdLabel.Size = new System.Drawing.Size(110, 24);
             this.itemIdLabel.TabIndex = 1;
             this.itemIdLabel.Text = "商品识别码";
             // 
@@ -86,7 +86,7 @@
             // AddItemBtn
             // 
             this.AddItemBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-            this.AddItemBtn.Font = new System.Drawing.Font("幼圆", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.AddItemBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.AddItemBtn.ForeColor = System.Drawing.Color.DarkCyan;
             this.AddItemBtn.Location = new System.Drawing.Point(29, 112);
             this.AddItemBtn.Name = "AddItemBtn";
@@ -101,11 +101,11 @@
             this.PayByCashRadio.AutoSize = true;
             this.PayByCashRadio.BackColor = System.Drawing.Color.Transparent;
             this.PayByCashRadio.Checked = true;
-            this.PayByCashRadio.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.PayByCashRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PayByCashRadio.ForeColor = System.Drawing.Color.Cyan;
             this.PayByCashRadio.Location = new System.Drawing.Point(30, 242);
             this.PayByCashRadio.Name = "PayByCashRadio";
-            this.PayByCashRadio.Size = new System.Drawing.Size(60, 20);
+            this.PayByCashRadio.Size = new System.Drawing.Size(61, 24);
             this.PayByCashRadio.TabIndex = 4;
             this.PayByCashRadio.TabStop = true;
             this.PayByCashRadio.Text = "现金";
@@ -116,11 +116,11 @@
             // 
             this.PayByCardRadio.AutoSize = true;
             this.PayByCardRadio.BackColor = System.Drawing.Color.Transparent;
-            this.PayByCardRadio.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.PayByCardRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PayByCardRadio.ForeColor = System.Drawing.Color.Cyan;
             this.PayByCardRadio.Location = new System.Drawing.Point(98, 242);
             this.PayByCardRadio.Name = "PayByCardRadio";
-            this.PayByCardRadio.Size = new System.Drawing.Size(77, 20);
+            this.PayByCardRadio.Size = new System.Drawing.Size(78, 24);
             this.PayByCardRadio.TabIndex = 5;
             this.PayByCardRadio.Text = "购物卡";
             this.PayByCardRadio.UseVisualStyleBackColor = false;
@@ -130,11 +130,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Cyan;
             this.label2.Location = new System.Drawing.Point(26, 213);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 19);
+            this.label2.Size = new System.Drawing.Size(90, 24);
             this.label2.TabIndex = 6;
             this.label2.Text = "付款方式";
             // 
@@ -249,11 +249,11 @@
             // 
             this.itemSumLabel.AutoSize = true;
             this.itemSumLabel.BackColor = System.Drawing.Color.Transparent;
-            this.itemSumLabel.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.itemSumLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.itemSumLabel.ForeColor = System.Drawing.Color.Teal;
             this.itemSumLabel.Location = new System.Drawing.Point(148, 50);
             this.itemSumLabel.Name = "itemSumLabel";
-            this.itemSumLabel.Size = new System.Drawing.Size(51, 19);
+            this.itemSumLabel.Size = new System.Drawing.Size(50, 24);
             this.itemSumLabel.TabIndex = 17;
             this.itemSumLabel.Text = "数量";
             // 
@@ -272,11 +272,11 @@
             // 
             this.PayByCashCardRadio.AutoSize = true;
             this.PayByCashCardRadio.BackColor = System.Drawing.Color.Transparent;
-            this.PayByCashCardRadio.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.PayByCashCardRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PayByCashCardRadio.ForeColor = System.Drawing.Color.Cyan;
             this.PayByCashCardRadio.Location = new System.Drawing.Point(29, 268);
             this.PayByCashCardRadio.Name = "PayByCashCardRadio";
-            this.PayByCashCardRadio.Size = new System.Drawing.Size(146, 20);
+            this.PayByCashCardRadio.Size = new System.Drawing.Size(139, 24);
             this.PayByCashCardRadio.TabIndex = 19;
             this.PayByCashCardRadio.Text = "现金 和 购物卡";
             this.PayByCashCardRadio.UseVisualStyleBackColor = false;
@@ -287,11 +287,11 @@
             this.CardIdLabel.AutoSize = true;
             this.CardIdLabel.BackColor = System.Drawing.Color.Transparent;
             this.CardIdLabel.Enabled = false;
-            this.CardIdLabel.Font = new System.Drawing.Font("幼圆", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CardIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.CardIdLabel.ForeColor = System.Drawing.Color.MintCream;
             this.CardIdLabel.Location = new System.Drawing.Point(26, 304);
             this.CardIdLabel.Name = "CardIdLabel";
-            this.CardIdLabel.Size = new System.Drawing.Size(82, 14);
+            this.CardIdLabel.Size = new System.Drawing.Size(83, 17);
             this.CardIdLabel.TabIndex = 20;
             this.CardIdLabel.Text = "购物卡编号";
             // 
@@ -300,11 +300,11 @@
             this.CardPwdLabel.AutoSize = true;
             this.CardPwdLabel.BackColor = System.Drawing.Color.Transparent;
             this.CardPwdLabel.Enabled = false;
-            this.CardPwdLabel.Font = new System.Drawing.Font("幼圆", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CardPwdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.CardPwdLabel.ForeColor = System.Drawing.Color.MintCream;
             this.CardPwdLabel.Location = new System.Drawing.Point(26, 331);
             this.CardPwdLabel.Name = "CardPwdLabel";
-            this.CardPwdLabel.Size = new System.Drawing.Size(82, 14);
+            this.CardPwdLabel.Size = new System.Drawing.Size(83, 17);
             this.CardPwdLabel.TabIndex = 21;
             this.CardPwdLabel.Text = "购物卡密码";
             // 
@@ -332,11 +332,11 @@
             this.CardUseLabel1.AutoSize = true;
             this.CardUseLabel1.BackColor = System.Drawing.Color.Transparent;
             this.CardUseLabel1.Enabled = false;
-            this.CardUseLabel1.Font = new System.Drawing.Font("幼圆", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CardUseLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.CardUseLabel1.ForeColor = System.Drawing.Color.MintCream;
             this.CardUseLabel1.Location = new System.Drawing.Point(26, 360);
             this.CardUseLabel1.Name = "CardUseLabel1";
-            this.CardUseLabel1.Size = new System.Drawing.Size(82, 14);
+            this.CardUseLabel1.Size = new System.Drawing.Size(83, 17);
             this.CardUseLabel1.TabIndex = 24;
             this.CardUseLabel1.Text = "购物卡使用";
             // 
@@ -355,11 +355,11 @@
             this.CardUseLabel2.AutoSize = true;
             this.CardUseLabel2.BackColor = System.Drawing.Color.Transparent;
             this.CardUseLabel2.Enabled = false;
-            this.CardUseLabel2.Font = new System.Drawing.Font("幼圆", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CardUseLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.CardUseLabel2.ForeColor = System.Drawing.Color.MintCream;
             this.CardUseLabel2.Location = new System.Drawing.Point(180, 360);
             this.CardUseLabel2.Name = "CardUseLabel2";
-            this.CardUseLabel2.Size = new System.Drawing.Size(22, 14);
+            this.CardUseLabel2.Size = new System.Drawing.Size(23, 17);
             this.CardUseLabel2.TabIndex = 26;
             this.CardUseLabel2.Text = "元";
             // 
@@ -391,7 +391,7 @@
             // DelBtn
             // 
             this.DelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(201)))), ((int)(((byte)(212)))));
-            this.DelBtn.Font = new System.Drawing.Font("幼圆", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.DelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DelBtn.ForeColor = System.Drawing.Color.DarkCyan;
             this.DelBtn.Location = new System.Drawing.Point(522, 385);
             this.DelBtn.Name = "DelBtn";

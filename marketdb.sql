@@ -115,7 +115,7 @@ insert into workers(gender, firstName, lastName, positionID)
 values('false', 'Su', 'Hang', 14);
 
 insert into position(department, positionName, salary)
-values('persinnel', 'manager', 5000);
+values('personnel', 'manager', 5000);
 insert into position(department, positionName, salary)
 values('commodity', 'manager', 5100);
 insert into position(department, positionName, salary)

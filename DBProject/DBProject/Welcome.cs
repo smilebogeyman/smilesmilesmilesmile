@@ -81,5 +81,11 @@ namespace DBProject
         {
             this.Dispose();
         }
+
+        private void addAccount_Click(object sender, EventArgs e)
+        {
+            current = "addCourse";
+            login.ShowDialog();
+        }
     }
 }

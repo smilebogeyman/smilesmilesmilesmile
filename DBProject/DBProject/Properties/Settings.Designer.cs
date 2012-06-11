@@ -26,7 +26,7 @@ namespace DBProject.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SONY-VAIO;Initial Catalog=marketdb;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=L-PC\\LEGNA;Initial Catalog=marketdb;Integrated Security=True")]
         public string marketdbConnectionString {
             get {
                 return ((string)(this["marketdbConnectionString"]));
