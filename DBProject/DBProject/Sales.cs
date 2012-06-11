@@ -19,7 +19,8 @@ namespace DBProject
         {
             InitializeComponent();//初始化界面
             SaleCmd = new SqlCommand();
-            SaleCmd.Connection = DBOperation.conn();//创建SQL连接
+            string con = "data source = .; initial catalog = marketdb; integrated security = true";
+            SaleCmd.Connection = new SqlConnection(con);//创建SQL连接
             SaleCmd.Connection.Open();              //打开SQL连接
         }
 
@@ -72,8 +73,8 @@ namespace DBProject
             if (!checkSaleInput())              //检查输入的商品ID、商品数量是否正确
                 return;
 
-            SaleCmd.CommandText = "select dbo.items.itemName, dbo.items.itemPrice from dbo.items where dbo.items.itemID='"
-                + this.itemIDBox.Text+"';";
+            SaleCmd.CommandText = "select dbo.items.itemName, dbo.items.itemPrice from dbo.items where dbo.items.itemID="
+                + this.itemIDBox.Text+";";
             SaleRead = SaleCmd.ExecuteReader();
             if (!SaleRead.Read())               //如果所输商品数据库中不存在，则提示错误
             {
@@ -243,8 +244,8 @@ namespace DBProject
                 return;
 
             float cardAmount;
-            SaleCmd.CommandText = "select dbo.cards.cardID, dbo.cards.amount from dbo.cards where dbo.cards.cardID='"
-                + this.CardIdBox.Text + "'and dbo.cards.password='"+this.CardPwdBox.Text+"';";
+            SaleCmd.CommandText = "select dbo.cards.cardID, dbo.cards.amount from dbo.cards where dbo.cards.cardID="
+                + this.CardIdBox.Text + " and dbo.cards.password= "+this.CardPwdBox.Text+" ;";
             SaleRead = SaleCmd.ExecuteReader();//查询所输购物卡信息
             if (!SaleRead.Read())
             {
@@ -268,7 +269,7 @@ namespace DBProject
                 else
                 {
                     SaleCmd.CommandText = "update dbo.cards set dbo.cards.amount = dbo.cards.amount - "
-                        + this.WholePriceBox.Text + " where dbo.cards.cardID='" + this.CardIdBox.Text + "';";
+                        + this.WholePriceBox.Text + " where dbo.cards.cardID= " + this.CardIdBox.Text + " ;";
                     SaleCmd.ExecuteNonQuery();
                     MessageBox.Show("支付成功！");
                 }
@@ -283,7 +284,7 @@ namespace DBProject
                 else
                 {
                     SaleCmd.CommandText = "update dbo.cards set dbo.cards.amount = dbo.cards.amount - "
-                        + this.CardUseBox.Text + " where dbo.cards.cardID='" + this.CardIdBox.Text + "';";
+                        + this.CardUseBox.Text + " where dbo.cards.cardID= " + this.CardIdBox.Text + " ;";
                     SaleCmd.ExecuteNonQuery();
                     MessageBox.Show("购物卡支付成功！请支付现金 "
                         + (float.Parse(this.WholePriceBox.Text) - float.Parse(this.CardUseBox.Text)).ToString()
@@ -318,10 +319,13 @@ namespace DBProject
             SaleCmd.CommandText="";
             for (int i = 0; i < this.SaleList.Items.Count; i++)
             {
-                SaleCmd.CommandText += "insert into dbo.itemsList (billID, itemID, itemNum)values('"
-                    + currBillId + "', '"                               //billID作为itemsList的foreign key
-                    + this.SaleList.Items[i].SubItems[0].Text + "', '"
-                    + this.SaleList.Items[i].SubItems[3].Text + "');";
+                SaleCmd.CommandText += "insert into dbo.itemsList (billID, itemID, itemNum)values("
+                    + currBillId + ", "                               //billID作为itemsList的foreign key
+                    + this.SaleList.Items[i].SubItems[0].Text + ", "
+                    + this.SaleList.Items[i].SubItems[3].Text + ");";
+                SaleCmd.CommandText += "update dbo.items set dbo.items.itemQuan=dbo.items.itemQuan - "
+                    + this.SaleList.Items[i].SubItems[3].Text + " where dbo.items.itemID="
+                    + this.SaleList.Items[i].SubItems[0].Text + " ;";
             }
             SaleCmd.ExecuteNonQuery();
             return true;

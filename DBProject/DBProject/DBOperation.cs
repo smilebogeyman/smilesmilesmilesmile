@@ -11,14 +11,14 @@ namespace DBProject
 {
     class DBOperation
     {
-        public static SqlConnection conn()
+        public SqlConnection conn()
         { 
             string con = "data source = .; initial catalog = marketdb; integrated security = true";
             SqlConnection conn = new SqlConnection(con);
             return conn;
         }
 
-        public static bool singleOperation(string SQLcmd)
+        public bool singleOperation(string SQLcmd)
         {
             SqlConnection con = conn();
             con.Open();
